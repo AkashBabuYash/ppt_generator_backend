@@ -1,0 +1,25 @@
+{
+  "name": "alpha-ai-ppt-backend",
+  "version": "2.0.0",
+  "description": "Node.js Express backend for Alpha AI PPT Studio — Auth + MongoDB Atlas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["ai", "ppt", "presentation", "express", "mongodb"],
+  "author": "Akash Babu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.23.0",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
